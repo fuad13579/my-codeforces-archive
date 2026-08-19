@@ -1,0 +1,23 @@
+# Build artifacts
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+
+# Editor and IDE files
+.vscode/
+.idea/
+.cph/
+
+# Temporary files
+*.tmp
+*.log
+tempCodeRunnerFile.*
+__tmp_*
+
+# Local input/output files
+input.txt
+output.txt

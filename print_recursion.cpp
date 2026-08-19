@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+using ll = long long;
+using pii = pair<int,int>;
+using pll = pair<ll,ll>;
+
+#define fast_io ios::sync_with_stdio(false); cin.tie(NULL);
+#define all(x) (x).begin(), (x).end()
+
+void print_recursion(int n) {
+    if (n == 0) return;
+    cout << "I love Recursion" << endl;
+    print_recursion(n-1);
+}
+
+void solve() {
+    int n;
+    cin>>n;
+    print_recursion(n);
+    cout<<endl;
+}
+
+int main() {
+    fast_io;
+
+    int t=1;
+    //cin >> t;
+    while(t--) {
+        solve();
+    }
+
+    return 0;
+}
